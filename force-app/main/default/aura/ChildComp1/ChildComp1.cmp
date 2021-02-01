@@ -1,0 +1,7 @@
+<aura:component >
+    <aura:registerEvent name="ChildComp1" type="c:ComponentEvent"/>
+    <lightning:button label="Fire Component event from ChildComp1" value="ChildComp1" variant="brand" 
+                      onclick="{!c.methodfirst}"   />
+    
+    
+</aura:component>

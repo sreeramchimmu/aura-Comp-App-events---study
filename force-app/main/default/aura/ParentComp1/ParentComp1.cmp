@@ -1,0 +1,6 @@
+<aura:component >
+    <aura:handler name="ChildComp1" event="c:ComponentEvent" action="{!c.handleComponentEvent1}"/>
+    
+    <c:ChildComp2/>
+    <c:ChildComp1/>
+</aura:component>
